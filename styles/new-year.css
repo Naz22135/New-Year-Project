@@ -1,4 +1,8 @@
 /* banner styles */
+.banner-section {
+    margin: 50px 140px 120px 140px;
+
+}
 
 .banner-pic {
     background:
@@ -12,14 +16,12 @@
     justify-content: center;
     background-color: #1E1E1E;
 
-    background-size: cover;
 }
 
 .banner-caption {
     text-align: center;
     display: flex;
     color: #FFFFFF;
-    padding: 0 16px;
     flex-direction: column;
     gap: 16px;
 
@@ -40,4 +42,83 @@
     font-size: 72px;
 
 
+}
+
+/* main styles */
+.new-year-content {
+    text-align: center;
+}
+
+.new-year-content h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 120px;
+    margin-bottom: 49px;
+
+}
+
+.holiday {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 600;
+
+}
+
+.categories {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-top: 16px;
+
+
+}
+
+/* welcome section */
+.welcome-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.midnight-party h1 {
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+
+}
+
+.party-description {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: darkgrey;
+}
+
+.midnight-party button {
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-top: 35px;
+    padding-left: 35px;
+    background-color: transparent;
+    color: #FFFFFF;
+
+}
+
+.img-24 {
+    width: 300px;
+    height: 450px;
+    padding: 65px 135px 65px 35px;
 }
