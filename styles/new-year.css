@@ -227,8 +227,6 @@
 
 /* holidays sale style */
 .holidays-sale {
-    border: 2px solid #FF0000;
-
     max-width: 1320px;
     height: 980px;
     margin: 0 auto;
@@ -236,7 +234,7 @@
 }
 
 .sale-content {
-    border: 2px solid #FF0000;
+
     text-align: center;
 
 }
@@ -258,11 +256,17 @@
 }
 
 .gift-part {
-    border: 2px solid #070211;
+
     margin-top: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.gift-img {
+    height: 577px;
+    width: 674px;
+    box-shadow: none;
 }
 
 .discount-img {
