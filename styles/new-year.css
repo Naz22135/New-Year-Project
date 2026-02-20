@@ -375,16 +375,47 @@ main {
     border: #070211 1px solid;
     margin: 0 auto;
     margin-top: 120px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
 
 
 }
 
 .contact-details,
-.reserved {
+.reserved,
+.num-img,
+.unsubscribe {
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
+    margin-left: 140px;
+    /* margin-right: 250px; */
+}
+
+.contact {
+    display: flex;
+    gap: 559px;
+    margin-top: 120px;
+
+}
+
+.contact-img {
+    text-align: center;
+    padding: 50px;
+    border-top: 1px solid #252323;
+    border-bottom: 1px solid #333131;
+}
+
+.contact-img img {
+    padding: 24px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unsubscribe {
+    margin-right: 140px;
 }
